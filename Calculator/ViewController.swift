@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         addToWorkings(value: ".")
     }
     @IBAction func equalsTap(_ sender: Any) {
-        
+        //
         if (validInput()) {
             let checkWorkingsForPercent = workings.replacingOccurrences(of: "%", with: "*0.01")
             let expression = NSExpression(format: checkWorkingsForPercent)
